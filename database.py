@@ -30,7 +30,7 @@ class DBConfig:
             params["ssl_ca"] = "/etc/ssl/cert.pem"
         return params
 
-# Configuración de la base de datos
+# Configuración de la base de datos mysql
 db_config = DBConfig()
 
 # Crear pool de conexiones con manejo de errores
